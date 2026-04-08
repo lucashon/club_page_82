@@ -37,7 +37,7 @@ export default function Home() {
       >
         {/* BACKEND: Buscar nome do usuário logado */}
         <h1 className="serif-title text-4xl md:text-5xl font-bold text-on-surface leading-tight">
-          Olá, Rodrigo! <br />
+          Olá, Dilyanne! <br />
           <span className="text-secondary italic font-normal">Pronto para mais um capítulo?</span>
         </h1>
       </motion.section>
@@ -63,19 +63,19 @@ export default function Home() {
             />
           </div>
           <div className="flex flex-col justify-center flex-grow">
-            <h2 className="serif-title text-3xl font-bold text-on-surface mb-2">O Alquimista</h2>
-            <p className="text-on-surface-variant font-medium mb-6">por Paulo Coelho</p>
+            <h2 className="serif-title text-3xl font-bold text-on-surface mb-2">Noites Brancas</h2>
+            <p className="text-on-surface-variant font-medium mb-6">por Fiódor Dostoiévski</p>
             <div className="space-y-4">
               <div className="flex justify-between items-end">
                 <span className="text-sm font-bold text-on-surface">Progresso de Leitura</span>
-                <span className="serif-title text-2xl font-bold text-primary">88%</span>
+                <span className="serif-title text-2xl font-bold text-primary">46%</span>
               </div>
               <div className="w-full bg-surface-variant h-3 rounded-full overflow-hidden">
-                <div className="bg-primary h-full rounded-full" style={{ width: '88%' }}></div>
+                <div className="bg-primary h-full rounded-full" style={{ width: '46%' }}></div>
               </div>
               <div className="flex justify-between text-xs font-bold text-on-surface-variant uppercase tracking-widest">
-                <span>Página 150</span>
-                <span>Total 170</span>
+                <span>Página 43</span>
+                <span>Total 96</span>
               </div>
             </div>
             <Link 
