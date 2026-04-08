@@ -13,6 +13,7 @@ import Profile from './pages/Profile';
 import AddBook from './pages/AddBook';
 import Events from './pages/Events';
 import Login from './pages/Login';
+import Register from './pages/Register';
 
 // BACKEND: Configurar rotas protegidas e autenticação global aqui
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
     <Router>
       <Routes>
         <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="library" element={<Library />} />
