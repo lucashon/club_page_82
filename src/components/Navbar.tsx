@@ -17,7 +17,7 @@ export default function Navbar() {
     <header className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md shadow-[0_8px_30px_rgba(41,23,11,0.06)]">
       <nav className="flex justify-between items-center px-8 h-20 w-full max-w-screen-2xl mx-auto">
         <Link to="/" className="text-2xl font-bold font-headline text-on-surface tracking-tight">
-          A Biblioteca Viva
+          Clube Página 082 
         </Link>
         
         <div className="hidden md:flex items-center space-x-8">

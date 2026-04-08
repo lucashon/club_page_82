@@ -151,7 +151,7 @@ export default function Home() {
             <h3 className="serif-title text-2xl font-bold text-on-surface">Lendo Atualmente</h3>
             <Link to="/library" className="text-primary text-sm font-bold hover:underline">Ver todos</Link>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-2 gap-4 md:gap-6">
             {/* BACKEND: Mapear livros que o usuário está lendo no momento */}
             {CURRENTLY_READING.map((book, idx) => (
               <motion.div 
@@ -159,18 +159,18 @@ export default function Home() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.4 + idx * 0.1 }}
-                className="bg-surface-container-lowest p-5 rounded-xl flex gap-4 shadow-sm hover:shadow-md transition-shadow"
+                className="bg-surface-container-lowest p-3 md:p-5 rounded-xl flex flex-col sm:flex-row gap-3 md:gap-4 shadow-sm hover:shadow-md transition-shadow"
               >
                 <img 
                   src={book.cover} 
                   alt={book.title} 
-                  className="w-20 h-28 object-cover rounded shadow-sm"
+                  className="w-full sm:w-20 h-32 sm:h-28 object-cover rounded shadow-sm"
                   referrerPolicy="no-referrer"
                 />
                 <div className="flex flex-col justify-between flex-grow py-1">
                   <div>
-                    <h4 className="font-bold text-on-surface">{book.title}</h4>
-                    <p className="text-xs text-on-surface-variant">{book.author}</p>
+                    <h4 className="font-bold text-on-surface text-sm md:text-base leading-tight mb-1">{book.title}</h4>
+                    <p className="text-[10px] md:text-xs text-on-surface-variant">{book.author}</p>
                   </div>
                   <div>
                     <div className="flex justify-between text-[10px] font-bold mb-1 uppercase tracking-tighter">

@@ -12,12 +12,14 @@ import Community from './pages/Community';
 import Profile from './pages/Profile';
 import AddBook from './pages/AddBook';
 import Events from './pages/Events';
+import Login from './pages/Login';
 
 // BACKEND: Configurar rotas protegidas e autenticação global aqui
 export default function App() {
   return (
     <Router>
       <Routes>
+        <Route path="/login" element={<Login />} />
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="library" element={<Library />} />
