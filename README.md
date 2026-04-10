@@ -1,4 +1,4 @@
-# A Biblioteca Viva 📚
+# Clube Página 82 📚
 
 Uma experiência narrativa tátil e moderna para amantes de livros. Este projeto é uma plataforma para acompanhar o progresso de leitura, participar de discussões na comunidade e descobrir novas histórias, tudo com uma interface polida e animações fluidas.
 
@@ -61,6 +61,3 @@ No diretório do projeto, você pode executar:
 ## 📝 Notas de Integração (Backend)
 
 O código atual utiliza dados estáticos para demonstração da interface. Procure pelos comentários `// BACKEND:` nos arquivos da pasta `src/` para identificar onde as integrações com APIs e Banco de Dados devem ser realizadas.
-
----
-Desenvolvido com ❤️ para amantes da leitura.
